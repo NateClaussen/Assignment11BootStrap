@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap Recipe Page</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<!-- Bootstrap CSS v5.2.1 -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<!-- Bootstrap JavaScript Libraries -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+			defer
+		></script>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+			integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+			crossorigin="anonymous"
+			defer
+		></script>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">My Recipes</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse"
+						id="navbarSupportedContent"
+					>
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Privacy</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Another Header</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<h1>My Recipes</h1>
+			<div
+				class="row row-cols-1 row-cols-md-4 row-cols-lg-5 row-cols-sm-2 g-4"
+			>
+				<div class="col">
+					<div class="card h-100">
+						<img
+							src="images/CreamyGarlicParm.jpg"
+							class="card-img-top"
+							alt="Creamy Garlic Parm"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">
+								Creamy Garlic Parmesan Pasta
+							</h5>
+							<p class="card-text">
+								<strong>Description:</strong><br />
+								A quick and rich pasta dish made with a creamy
+								garlic parmesan sauce, perfect for weeknight
+								dinners
+							</p>
+							<h4>Ingredients:</h4>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">200g spaghetti</li>
+								<li class="list-group-item">
+									1 cup heavy cream
+								</li>
+								<li class="list-group-item">
+									1/2 cup grated parmesan cheese
+								</li>
+								<li class="list-group-item">
+									4 garlic cloves, minced
+								</li>
+								<li class="list-group-item">
+									1 tbsp olive oil
+								</li>
+								<li class="list-group-item">
+									Salt & pepper to taste
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img
+							src="images/GrilledLemonHerbChicken.jpg"
+							class="card-img-top"
+							alt="Grilled Lemon Herb Chicken"
+							style="max-height: 400px"
+						/>
+
+						<div class="card-body">
+							<h5 class="card-title">
+								Grilled Lemon Herb Chicken
+							</h5>
+							<p class="card-text">
+								<strong>Description:</strong><br />
+								Juicy chicken breasts marinated in lemon juice
+								and fresh herbs, grilled to perfection.
+							</p>
+							<h4>Ingredients:</h4>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									4 chicken breasts
+								</li>
+								<li class="list-group-item">
+									2 tbsp olive oil
+								</li>
+								<li class="list-group-item">
+									2 lemons (juice and zest)
+								</li>
+								<li class="list-group-item">
+									3 garlic cloves, minced
+								</li>
+								<li class="list-group-item">
+									Fresh rosemary and thyme, chopped
+								</li>
+								<li class="list-group-item">
+									Salt & pepper to taste
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img
+							src="images/ClassicMargheritaPizza.jpg"
+							class="card-img-top"
+							alt="Classic Margherita Pizza"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Classic Margherita Pizza</h5>
+							<p class="card-text">
+								<strong>Description:</strong><br />
+								A simple yet delicious pizza with fresh
+								mozzarella, basil, and tomatoes on a crispy thin
+								crust.
+							</p>
+							<h4>Ingredients:</h4>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">1 pizza dough</li>
+								<li class="list-group-item">
+									1/2 cup tomato sauce
+								</li>
+								<li class="list-group-item">
+									200g fresh mozzarella cheese
+								</li>
+								<li class="list-group-item">
+									Fresh basil leaves
+								</li>
+								<li class="list-group-item">
+									1 tbsp olive oil
+								</li>
+								<li class="list-group-item">
+									Salt & pepper to taste
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img
+							src="images/AvocadoToastwEgg.jpg"
+							class="card-img-top"
+							alt="Avocado Toast with Poached Egg"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">
+								Avocado Toast with Poached Egg
+							</h5>
+							<p class="card-text">
+								<strong>Description:</strong><br />
+								A quick and healthy breakfast option with creamy
+								avocado spread and a perfectly poached egg on
+								sourdough toast.
+							</p>
+							<h4>Ingredients:</h4>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									2 slices sourdough bread
+								</li>
+								<li class="list-group-item">1 ripe avocado</li>
+								<li class="list-group-item">
+									1 tbsp lemon juice
+								</li>
+								<li class="list-group-item">2 eggs</li>
+								<li class="list-group-item">
+									Salt & pepper to taste
+								</li>
+								<li class="list-group-item">
+									Chili flakes (optional)
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img
+							src="images/ChocoBananaBread.jpg"
+							class="card-img-top"
+							alt="Chocolate Chip Banana Bread"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">
+								Chocolate Chip Banana Bread
+							</h5>
+							<p class="card-text">
+								<strong>Description:</strong><br />
+								Moist banana bread with melty chocolate chips,
+								ideal for breakfast or a sweet snack.
+							</p>
+							<h4>Ingredients:</h4>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">3 ripe bananas</li>
+								<li class="list-group-item">
+									1/2 cup melted butter
+								</li>
+								<li class="list-group-item">1 cup sugar</li>
+								<li class="list-group-item">
+									1 1/2 cups all-purpose flour
+								</li>
+								<li class="list-group-item">
+									1 tsp baking soda
+								</li>
+								<li class="list-group-item">
+									1 cup chocolate chips
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img
+							src="images/SpicyThaiBasilStirFry.jpg"
+							class="card-img-top"
+							alt="Spicy Thai Basil Stir-fry"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">
+								Spicy Thai Basil Stir-fry
+							</h5>
+							<p class="card-text">
+								<strong>Description:</strong><br />
+								A flavorful Thai dish with stir-fried
+								vegetables, basil, and your choice of protein,
+								served over rice.
+							</p>
+							<h4>Ingredients:</h4>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									300g chicken or tofu
+								</li>
+								<li class="list-group-item">
+									1 cup bell peppers, sliced
+								</li>
+								<li class="list-group-item">
+									1/2 cup onion, sliced
+								</li>
+								<li class="list-group-item">
+									2 tbsp soy sauce
+								</li>
+								<li class="list-group-item">
+									2 tbsp oyster sauce
+								</li>
+								<li class="list-group-item">
+									1 bunch fresh Thai basil leaves
+								</li>
+								<li class="list-group-item">
+									1 red chili, chopped
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img
+							src="images/BakedSalmonHoneyGarlic.jpg"
+							class="card-img-top"
+							alt="Baked Salmon with Honey Garlic Glaze"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">
+								Baked Salmon with Honey Garlic Glaze
+							</h5>
+							<p class="card-text">
+								<strong>Description:</strong> <br />
+								Tender baked salmon with a sweet and savory
+								honey garlic glaze, served with roasted
+								vegetables.
+							</p>
+							<h4>Ingredients:</h4>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									4 salmon fillets
+								</li>
+								<li class="list-group-item">3 tbsp honey</li>
+								<li class="list-group-item">
+									2 tbsp soy sauce
+								</li>
+								<li class="list-group-item">
+									3 garlic cloves, minced
+								</li>
+								<li class="list-group-item">
+									1 tbsp olive oil
+								</li>
+								<li class="list-group-item">
+									Salt & pepper to taste
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img
+							src="images/LoadedVeggieQuesadillas.jpg"
+							class="card-img-top"
+							alt="Loaded Veggie Quesadillas"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">
+								Loaded Veggie Quesadillas
+							</h5>
+							<p class="card-text">
+								<strong>Description:</strong><br />
+								Crispy tortillas stuffed with cheese, black
+								beans, and a variety of fresh vegetables, served
+								with salsa.
+							</p>
+							<h4>Ingredients:</h4>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									4 large tortillas
+								</li>
+								<li class="list-group-item">
+									1 cup shredded cheddar cheese
+								</li>
+								<li class="list-group-item">
+									1/2 cup black beans
+								</li>
+								<li class="list-group-item">
+									1/2 cup bell peppers, chopped
+								</li>
+								<li class="list-group-item">
+									1/2 cup corn kernels
+								</li>
+								<li class="list-group-item">
+									2 tbsp sour cream (for garnish)
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img
+							src="images/CoconutCurryLentilSoup.jpg"
+							class="card-img-top"
+							alt="Coconut Curry Lentil Soup"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">
+								Coconut Curry Lentil Soup
+							</h5>
+							<p class="card-text">
+								<strong>Description:</strong><br />
+								A warm and comforting lentil soup made with
+								creamy coconut milk and fragrant curry spices.
+							</p>
+							<h4>Ingredients:</h4>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									1 cup red lentils
+								</li>
+								<li class="list-group-item">
+									1 can coconut milk
+								</li>
+								<li class="list-group-item">
+									1 tbsp curry powder
+								</li>
+								<li class="list-group-item">1 onion, diced</li>
+								<li class="list-group-item">
+									3 garlic cloves, minced
+								</li>
+								<li class="list-group-item">
+									4 cups vegetable broth
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img
+							src="images/SummerBerrySalad.jpg"
+							class="card-img-top"
+							alt="Summer Berry Salad with Honey Vinaigrette"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">
+								Summer Berry Salad with Honey Vinaigrette
+							</h5>
+							<p class="card-text">
+								<strong>Description:</strong><br />
+								A fresh and colorful salad with mixed greens,
+								juicy berries, and a light honey vinaigrette
+								dressing.
+							</p>
+							<h4>Ingredients:</h4>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									4 cups mixed greens
+								</li>
+								<li class="list-group-item">
+									1/2 cup strawberries, sliced
+								</li>
+								<li class="list-group-item">
+									1/2 cup blueberries
+								</li>
+								<li class="list-group-item">
+									1/4 cup crumbled feta cheese
+								</li>
+								<li class="list-group-item">2 tbsp honey</li>
+								<li class="list-group-item">
+									1 tbsp balsamic vinegar
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>The recipes on this website were created using ChatGPT</p>
+		</footer>
+	</body>
+</html>
